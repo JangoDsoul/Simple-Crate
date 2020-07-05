@@ -16,7 +16,25 @@ you take the crate back to the "Packing Table" it will give back the 250 resourc
 10 logs. It can also be haulable and Stackable up to 75.
 
 [h1]Features:[/h1]
-	-Resource Crate 
+	-Resource Crate for
+[list]	
+[*]Woodlogs
+[*]Steel
+[*]Plasteel
+[*]Gold
+[*]Jade
+[*]Unranium
+[*]Chemfuel
+[*]Componet
+[*]Advanced Component
+[*]Cloth
+[*]Synthread 
+[*]Devilstrand
+[*]Hyerweave
+[*]Plainleather
+[*]Human Leather
+[*]HeavyFur
+[/list]	
 	-New Work Bench "Packing Table"
 	-New Recipe for unpacking Crate
 	-35% off on the Price of each resource crate
