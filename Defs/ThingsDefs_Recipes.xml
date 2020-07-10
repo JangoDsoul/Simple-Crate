@@ -7,10 +7,10 @@
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
-    <!-- Switched to standard products so we can do "do until you have X" -->
+    <!-- Switched to standard products so we can do "do until you have X"
     <specialProducts>
       <li>Smelted</li>
-    </specialProducts>
+    </specialProducts>-->
   </RecipeDef>
   
   <!-- ============= Recipe Woodlog ============= -->  
@@ -532,5 +532,31 @@
       </thingDefs>
     </fixedIngredientFilter>	
   </RecipeDef>        
+  
+   <!-- ============= Recipe Medicine ============= -->  
+  
+  <RecipeDef ParentName="JDSUnpackCrateBase">  
+    <defName>JDSUnpackcrateSilver</defName>
+    <label>Unpacking Crate Silver</label>
+   <jobString>Unpacking Silver Crate.</jobString>	
+    <products>
+	  <Silver>2000</Silver>
+    </products>	
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ResourcesCrateSilver</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>	
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ResourcesCrateSilver</li>
+      </thingDefs>
+    </fixedIngredientFilter>	
+  </RecipeDef>         
   
 </Defs>

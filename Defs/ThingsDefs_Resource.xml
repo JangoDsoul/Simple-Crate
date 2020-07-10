@@ -53,9 +53,9 @@
     <tradeTags>
       <li>ResourceCrate</li>
     </tradeTags>	
-    <thingCategories>
-      <li>ResourcesRaw</li>
-    </thingCategories>	
+	<thingCategories Inherit="False">
+		<li>JDSSimpleResourceCrate_Main</li>
+	</thingCategories>	
   </ThingDef> 
  
   <!--=============== Woodlogs ====================-->
@@ -456,6 +456,26 @@
     <costList>
       <WoodLog>10</WoodLog>
 	  <MedicineUltratech>250</MedicineUltratech>
+    </costList>	
+  </ThingDef>  
+
+  <!--=============== Silver ====================-->
+  
+  <ThingDef ParentName="JDSResourceCrateBase">
+    <defName>ResourcesCrateSilver</defName>
+    <label>Resources Crate Silver</label>
+    <description>These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor</description>
+    <graphicData>
+      <texPath>Things/Crate/ResourcesCrateSilver</texPath>
+    </graphicData>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue>1300</MarketValue>
+      <Mass>1.0</Mass>
+    </statBases>
+    <costList>
+      <WoodLog>10</WoodLog>
+	  <Silver>2000</Silver>
     </costList>	
   </ThingDef>  
 
