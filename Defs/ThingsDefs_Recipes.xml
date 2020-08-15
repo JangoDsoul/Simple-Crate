@@ -533,7 +533,7 @@
     </fixedIngredientFilter>	
   </RecipeDef>        
   
-   <!-- ============= Recipe Medicine ============= -->  
+   <!-- ============= Recipe Silver ============= -->  
   
   <RecipeDef ParentName="JDSUnpackCrateBase">  
     <defName>JDSUnpackcrateSilver</defName>

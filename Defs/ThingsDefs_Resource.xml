@@ -113,7 +113,7 @@
     </statBases>
     <costList>
       <WoodLog>10</WoodLog>
-	  <Gold>250</Gold>
+	  <Gold>25</Gold>
     </costList>	
   </ThingDef>    
   
@@ -475,7 +475,7 @@
     </statBases>
     <costList>
       <WoodLog>10</WoodLog>
-	  <Silver>2000</Silver>
+	  <Silver>200</Silver>
     </costList>	
   </ThingDef>  
 
